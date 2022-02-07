@@ -7,3 +7,5 @@ spring:
       resourceserver:
         jwt:
           jwk-set-uri: https://login.microsoftonline.com/common/discovery/keys
+  profiles:
+    active: acs
