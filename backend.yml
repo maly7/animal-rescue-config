@@ -2,10 +2,5 @@ logging.level:
   org.springframework.data: warn
 
 spring:
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          jwk-set-uri: https://login.microsoftonline.com/common/discovery/keys
   profiles:
     active: acs
